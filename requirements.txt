@@ -1,0 +1,54 @@
+# PropertyScraper Dell710 - Requirements
+# Dependencias optimizadas para Dell T710 Ubuntu Server
+
+# Core web scraping
+seleniumbase>=4.20.0
+selenium>=4.15.0
+webdriver-manager>=4.0.0
+
+# SSH and remote execution
+paramiko>=3.4.0
+pyyaml>=6.0.1
+
+# System monitoring and resource management
+psutil>=5.9.5
+
+# Data processing and storage
+pandas>=2.1.0
+numpy>=1.24.0
+
+# HTTP requests and utilities
+requests>=2.31.0
+urllib3>=2.0.0
+
+# Logging and monitoring
+colorlog>=6.7.0
+
+# Configuration and environment
+python-dotenv>=1.0.0
+
+# Date and time utilities
+python-dateutil>=2.8.2
+
+# Async operations (for future concurrent improvements)
+aiohttp>=3.8.0
+asyncio-mqtt>=0.13.0
+
+# Development and testing tools (optional)
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+
+# Additional utilities for Dell T710 optimization
+schedule>=1.2.0  # For bi-monthly scheduling
+watchdog>=3.0.0  # File system monitoring
+memory-profiler>=0.61.0  # Memory usage profiling
+py-cpuinfo>=9.0.0  # CPU information
+
+# Chrome/Chromium browser dependencies
+# These will be installed via apt on Ubuntu:
+# google-chrome-stable
+# chromium-browser
+
+# Document generation and markdown parsing
+python-docx>=1.1.0  # For generating .docx guides
+markdown-it-py>=3.0.0  # (optional) future richer MD parsing
